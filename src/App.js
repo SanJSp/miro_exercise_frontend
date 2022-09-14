@@ -14,7 +14,7 @@ export default function App() {
     const windowUrl = window.location.search;
     const params = new URLSearchParams(windowUrl);
 
-    const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
+    const API_ENDPOINT = "https://backend-hpistudios-exercise.herokuapp.com";
 
     // expects http://localhost:3000/?exercise=1
     const sendBoardCreationBackendRequest = () => {

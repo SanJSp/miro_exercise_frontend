@@ -44,7 +44,7 @@ export default function App() {
         window.alert('Bitte Übung in URL angeben');
     } else {
         // disable this to manually click "create new board" Button (good for debugging)
-        // sendBoardCreationBackendRequest();
+        sendBoardCreationBackendRequest();
     }
 
     document.body.style = 'background: #191919';

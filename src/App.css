@@ -1,0 +1,39 @@
+.horizontal_center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: white;
+}
+
+.background_table_setup {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.table_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center
+}
+
+.boardLink {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    display: flex;
+    justify-content: center
+}
